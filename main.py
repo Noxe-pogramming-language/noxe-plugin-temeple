@@ -1,20 +1,7 @@
-from flask import Flask, url_for
+Token = ""
+SubToken
 
-channel = ""
-web = ""
-UToken = ""
-WToken = ""
-app = Flask(__name__)
+def lang(syntex):
 
-@app.route("/")
-def home():
-    return WToken
-@app.route("/<name>")
-def user(name):
-    return f"Hello {name}! :)"
-def channel():
-   return WToken        
-if __name__ == "__main__":
-    app.run()
-
-
+    if Token == "text":
+        print("hi mom")
